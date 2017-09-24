@@ -2,9 +2,9 @@
 
 > Get the **visual** width of the widest line in a string - the number of columns required to display it, for ex. in a terminal
 
-Some Unicode characters are [fullwidth](https://en.wikipedia.org/wiki/Halfwidth_and_fullwidth_forms) and use double the normal width. [ANSI escape codes](http://en.wikipedia.org/wiki/ANSI_escape_code) are stripped and doesn't affect the width.
-
-Useful to be able to know the maximum width a string will take up in the terminal.
+* [ANSI escape codes](http://en.wikipedia.org/wiki/ANSI_escape_code) will be ignored and won't affect the width.
+* Unicode characters magic (ex. some are [fullwidth](https://en.wikipedia.org/wiki/Halfwidth_and_fullwidth_forms)
+and use double the normal width) will be handled on a "best effort" basis.
 
 
 ## Install
