@@ -24,6 +24,21 @@ widestLine('古\n\u001b[1m@\u001b[22m');
 ```
 
 
+## Advanced usage
+
+Getting the visual width of a string is non-trivial when Unicode is used.
+Furthermore, some terminals behave differently, for ex. iterm2 display some "big" emojis on 2 columns instead of one.
+
+To allow handling those special cases, the "string-width" algorithm may be customized:
+
+```js
+widestLine('🌒🌓🌔🌕🌖🌗🌘\nfull moon', {
+    getStringWidth: s => superStringWidth(s, {target: 'iterm2'}) // imaginary example
+});
+//=> 14
+```
+
+
 ## Related
 
 - [string-width](https://github.com/sindresorhus/string-width) - Get the visual width of a string
