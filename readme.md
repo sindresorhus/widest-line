@@ -1,6 +1,6 @@
 # widest-line [![Build Status](https://travis-ci.org/sindresorhus/widest-line.svg?branch=master)](https://travis-ci.org/sindresorhus/widest-line)
 
-> Get the visual width of the widest line in a string - the number of columns required to display it
+> Get the **visual** width of the widest line in a string - the number of columns required to display it, for ex. in a terminal
 
 Some Unicode characters are [fullwidth](https://en.wikipedia.org/wiki/Halfwidth_and_fullwidth_forms) and use double the normal width. [ANSI escape codes](http://en.wikipedia.org/wiki/ANSI_escape_code) are stripped and doesn't affect the width.
 
