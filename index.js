@@ -1,5 +1,5 @@
 'use strict';
 const stringWidth = require('string-width');
 
-module.exports = str => Math.max.apply(null, str.split('\n').map(x => stringWidth(x)));
+module.exports = input => Math.max.apply(null, input.split('\n').map(x => stringWidth(x)));
 

@@ -1,8 +1,8 @@
 import test from 'ava';
-import fn from './';
+import m from '.';
 
 test(t => {
-	t.is(fn('a'), 1);
-	t.is(fn('a\nbe'), 2);
-	t.is(fn('古\n\u001b[1m@\u001b[22m'), 2);
+	t.is(m('a'), 1);
+	t.is(m('a\nbe'), 2);
+	t.is(m('古\n\u001B[1m@\u001B[22m'), 2);
 });
