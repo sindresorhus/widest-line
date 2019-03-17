@@ -1,7 +1,7 @@
 'use strict';
 const stringWidth = require('string-width');
 
-module.exports = input => {
+const widestLine = input => {
 	let max = 0;
 
 	for (const line of input.split('\n')) {
@@ -10,3 +10,6 @@ module.exports = input => {
 
 	return max;
 };
+
+module.exports = widestLine;
+module.exports.default = widestLine;
