@@ -10,7 +10,7 @@
 		"url": "sindresorhus.com"
 	},
 	"engines": {
-		"node": ">=6"
+		"node": ">=8"
 	},
 	"scripts": {
 		"test": "xo && ava && tsd-check"
@@ -22,7 +22,6 @@
 	"keywords": [
 		"string",
 		"character",
-		"char",
 		"unicode",
 		"width",
 		"visual",
@@ -45,7 +44,7 @@
 		"fixed-width"
 	],
 	"dependencies": {
-		"string-width": "^3.1.0"
+		"string-width": "^4.0.0"
 	},
 	"devDependencies": {
 		"ava": "^1.3.1",
