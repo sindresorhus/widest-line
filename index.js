@@ -12,4 +12,5 @@ const widestLine = input => {
 };
 
 module.exports = widestLine;
+// TODO: remove this in the next major version
 module.exports.default = widestLine;
