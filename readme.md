@@ -1,4 +1,4 @@
-# widest-line [![Build Status](https://travis-ci.org/sindresorhus/widest-line.svg?branch=master)](https://travis-ci.org/sindresorhus/widest-line)
+# widest-line
 
 > Get the visual width of the widest line in a string - the number of columns required to display it
 
