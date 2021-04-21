@@ -6,29 +6,21 @@ Some Unicode characters are [fullwidth](https://en.wikipedia.org/wiki/Halfwidth_
 
 Useful to be able to know the maximum width a string will take up in the terminal.
 
-
 ## Install
 
 ```
 $ npm install widest-line
 ```
 
-
 ## Usage
 
 ```js
-const widestLine = require('widest-line');
+import widestLine from 'widest-line';
 
 widestLine('古\n\u001B[1m@\u001B[22m');
 //=> 2
 ```
 
-
 ## Related
 
 - [string-width](https://github.com/sindresorhus/string-width) - Get the visual width of a string
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

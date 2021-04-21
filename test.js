@@ -1,5 +1,5 @@
 import test from 'ava';
-import widestLine from '.';
+import widestLine from './index.js';
 
 test('main', t => {
 	t.is(widestLine('a'), 1);
