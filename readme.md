@@ -8,8 +8,8 @@ Useful to be able to know the maximum width a string will take up in the termina
 
 ## Install
 
-```
-$ npm install widest-line
+```sh
+npm install widest-line
 ```
 
 ## Usage
